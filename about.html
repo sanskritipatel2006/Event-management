@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+    background-color: #333;
+    padding: 1rem 0;
+}
+.header :hover{
+    transform: scale(1.1);
+    transition-duration: 200ms;
+
+
+   }     
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    transition: background-color 0.3s , font size 0.3s;
+}
+nav ul li a:hover{
+    background-color: #444; 
+    font-size: 1.2rem; 
+
+}
+.container{
+    text-align: center;
+    font-size: 30px;
+}
+.main{
+    align-items: center;
+    margin-left: 470px;
+    margin-top: 50px;
+}
+.main img{
+    height: 300px;
+    width: 300px;
+}
+.contact{
+   margin-left: 150px;
+    font-size: 25px;
+}
+.thank{
+    margin-top: 50px;
+    text-align: center;
+}
+.thank p{
+    font-size: 20px;
+}
+a.first:hover , a.first:active{
+    font-size: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 1rem; 
+        padding: 10px 20px;
+        text-align: center;
+    }
+
+    
+    .main img {
+        width: 100%;  
+        height: auto; 
+        margin: 10px 0;
+    }
+
+    
+    .container {
+        font-size: 24px;
+    }
+
+    
+    .contact {
+        margin-left: 0;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    
+    .thank p {
+        font-size: 18px;
+    }
+
+    
+    .header {
+        padding: 0.5rem 0; 
+    }
+
+    .header ul {
+        padding: 0;
+    }
+
+    
+    .main {
+        display: block;
+        text-align: center;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <ul>
+                <li><a class="first" href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="event.html">Events</a></li>
+                <li><a href="register.html">Register</a>
+                </li><li><a href="about.html">About</a></li>
+
+            </ul>
+        </nav>
+    </div>
+    <div class="cont">
+    <div class="container">
+        <h1>Unforgettable Events</h1>
+        <p>We are near you<br>Try to reach us</p>
+        <a class="first" href="index.html">www.unforgettableevents.com</a>
+    </div>
+    <div class="main">
+        <img src="https://media.istockphoto.com/id/487973902/photo/delhi-pinned-on-a-map-of-asia.jpg?s=612x612&w=0&k=20&c=QKEgmvspw3K9DWwtc8aIMutpQydevMkbCmgfrcTrXms=">
+        <img src="https://media.istockphoto.com/id/464722544/photo/jaipur.jpg?s=612x612&w=0&k=20&c=yDNxvbMbo664SXqJn3EdhcA6EawEywsqG3sQify18sc="
+    </div>
+    <div class="contact">
+        <p>Contact us : 1234567890</p>
+        <p><a class="first" href="#">unforgettable123@gmail.com</a></p>
+        
+    </div>
+</div>
+</body>
+</html>
